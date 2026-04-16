@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PowerFit Gym</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- FONT -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  font-family:'Inter',sans-serif;
+  background:#111;
+  color:#fff;
+}
+
+/* NAV */
+nav{
+  display:flex;
+  justify-content:space-between;
+  padding:20px 50px;
+  background:#000;
+}
+.logo{font-weight:900;color:white;}
+.logo span{color:#ef4444;}
+
+.nav-links{display:flex;gap:20px;}
+.nav-links a{color:#aaa;text-decoration:none;}
+.nav-links a:hover{color:#ef4444;}
+
+.book-btn{
+  background:#ef4444;
+  padding:10px 20px;
+  border-radius:5px;
+  color:white;
+  text-decoration:none;
+}
+
+/* HERO */
+.hero{
+  padding:80px 50px;
+  background:
+  linear-gradient(to right,#111 30%,transparent),
+  url("https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e") center/cover;
+}
+.hero h1{
+  font-size:70px;
+  color:#ef4444;
+}
+.hero span{color:white;}
+.subtitle{font-size:18px;}
+
+/* FEATURES */
+.features{
+  display:flex;
+  gap:40px;
+  padding:30px 50px;
+  background:#1a1a1a;
+}
+.feature{flex:1}
+
+/* VIDEO */
+.section-title{
+  text-align:center;
+  margin:40px 0;
+}
+
+.video-grid{
+  display:flex;
+  gap:20px;
+  padding:0 50px 40px;
+  overflow-x:auto;
+}
+.video-card{
+  min-width:250px;
+  cursor:pointer;
+}
+.video-card img{
+  width:100%;
+  border-radius:10px;
+}
+.v-hook{color:#ef4444}
+
+/* SCRIPTS */
+.scripts{
+  display:flex;
+  gap:20px;
+  padding:40px 50px;
+}
+.script{
+  background:#1a1a1a;
+  padding:20px;
+  border-radius:10px;
+  flex:1;
+}
+
+/* CTA */
+.cta{
+  background:#7f1d1d;
+  padding:40px;
+  text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">POWERFIT <span>GYM</span></div>
+  <div class="nav-links">
+    <a href="#">Home</a>
+    <a href="#">Programs</a>
+    <a href="#">Contact</a>
+  </div>
+  <a href="#" class="book-btn">Book Free Trial</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>POWERFIT <span>GYM</span></h1>
+  <p class="subtitle">Transform your body. Transform your life.</p>
+</section>
+
+<!-- FEATURES -->
+<section class="features">
+  <div class="feature">💪 Expert Trainers</div>
+  <div class="feature">⏰ Flexible Timings</div>
+  <div class="feature">🏋️ Modern Equipment</div>
+</section>
+
+<!-- VIDEO ADS -->
+<h2 class="section-title">AI VIDEO ADS</h2>
+
+<section class="video-grid">
+
+  <div class="video-card" onclick="playVideo('https://www.w3schools.com/html/mov_bbb.mp4')">
+    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b">
+    <p class="v-hook">Hook:</p>
+    <p>I used to feel tired and unfit...</p>
+  </div>
+
+  <div class="video-card" onclick="playVideo('https://www.w3schools.com/html/movie.mp4')">
+    <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1">
+    <p class="v-hook">Hook:</p>
+    <p>I was scared to join gym...</p>
+  </div>
+
+  <div class="video-card" onclick="playVideo('https://www.w3schools.com/html/mov_bbb.mp4')">
+    <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438">
+    <p class="v-hook">Hook:</p>
+    <p>No time as a student...</p>
+  </div>
+
+</section>
+
+<!-- SCRIPTS -->
+<section class="scripts">
+
+  <div class="script">
+    <h3>Script 1</h3>
+    <p><b>Hook:</b> I used to feel tired…</p>
+    <p><b>Problem:</b> No energy</p>
+    <p><b>Solution:</b> Joined gym</p>
+    <p><b>CTA:</b> Join now</p>
+  </div>
+
+  <div class="script">
+    <h3>Script 2</h3>
+    <p><b>Hook:</b> I was scared…</p>
+    <p><b>Problem:</b> Beginner</p>
+    <p><b>Solution:</b> Trainers guided</p>
+    <p><b>CTA:</b> Start today</p>
+  </div>
+
+  <div class="script">
+    <h3>Script 3</h3>
+    <p><b>Hook:</b> No time…</p>
+    <p><b>Problem:</b> Busy</p>
+    <p><b>Solution:</b> Flexible timing</p>
+    <p><b>CTA:</b> Join now</p>
+  </div>
+
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <h2>Join PowerFit Gym Today</h2>
+  <p>Start your transformation now</p>
+</section>
+
+<!-- JS -->
+<script>
+function playVideo(src){
+  let overlay=document.createElement("div");
+  overlay.style.position="fixed";
+  overlay.style.top="0";
+  overlay.style.left="0";
+  overlay.style.width="100%";
+  overlay.style.height="100%";
+  overlay.style.background="black";
+  overlay.style.display="flex";
+  overlay.style.alignItems="center";
+  overlay.style.justifyContent="center";
+
+  let video=document.createElement("video");
+  video.src=src;
+  video.controls=true;
+  video.autoplay=true;
+  video.style.width="80%";
+
+  overlay.onclick=()=>overlay.remove();
+
+  overlay.appendChild(video);
+  document.body.appendChild(overlay);
+}
+</script>
+
+</body>
+</html>
