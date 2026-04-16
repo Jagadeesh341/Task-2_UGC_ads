@@ -1,11 +1,11 @@
-# 🎬 PowerFit Gym – UGC Video Ads (Task 2)
+# PowerFit Gym – UGC Video Ads (Task 2)
 
 This project focuses on creating **User Generated Content (UGC) video ad scripts** for promoting **PowerFit Gym (Surampalem)**.
 The goal is to design engaging, relatable, and high-converting content targeting students and beginners.
 
 ---
 
-## 🚀 Project Objective
+##  Project Objective
 
 * Create viral and attention-grabbing **hooks**
 * Develop **short UGC ad scripts**
@@ -14,7 +14,7 @@ The goal is to design engaging, relatable, and high-converting content targeting
 
 ---
 
-## 🎯 Target Audience
+##  Target Audience
 
 * College students
 * Gym beginners
@@ -23,7 +23,7 @@ The goal is to design engaging, relatable, and high-converting content targeting
 
 ---
 
-## 🔥 Hooks (Attention-Grabbing)
+##  Hooks (Attention-Grabbing)
 
 * “I wish I started going to this gym earlier…”
 * “This one change helped me lose weight fast…”
@@ -35,9 +35,9 @@ The goal is to design engaging, relatable, and high-converting content targeting
 
 ---
 
-## 🎬 UGC Video Ad Scripts
+## UGC Video Ad Scripts
 
-### 📌 Script 1
+###  Script 1
 
 * **Hook:** I used to feel tired and unfit all the time…
 * **Problem:** No energy, unhealthy routine, no guidance
@@ -47,7 +47,7 @@ The goal is to design engaging, relatable, and high-converting content targeting
 
 ---
 
-### 📌 Script 2
+###  Script 2
 
 * **Hook:** I was scared to join a gym because I was a beginner…
 * **Problem:** Didn’t know workouts or equipment
@@ -57,7 +57,7 @@ The goal is to design engaging, relatable, and high-converting content targeting
 
 ---
 
-### 📌 Script 3
+### Script 3
 
 * **Hook:** As a student, I thought I had no time for fitness…
 * **Problem:** Busy schedule, no routine
@@ -67,7 +67,7 @@ The goal is to design engaging, relatable, and high-converting content targeting
 
 ---
 
-## 📢 Final Call to Action
+## Final Call to Action
 
 * 👉 Join PowerFit Gym today
 * 👉 Start your fitness transformation
@@ -75,7 +75,7 @@ The goal is to design engaging, relatable, and high-converting content targeting
 
 ---
 
-## 🧠 AI Prompts Used
+## AI Prompts Used
 
 ### Prompt 1:
 
@@ -91,7 +91,7 @@ Write engaging Instagram captions for a gym transformation ad.
 
 ---
 
-## 💡 Key Learnings
+##  Key Learnings
 
 * Importance of strong hooks in marketing
 * Creating relatable and emotional content
